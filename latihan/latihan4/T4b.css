@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  line-height: 1;
+  background-image: url(back.jpg);
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote::after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  width: 700px;
+  margin: auto;
+  background-color: #fff;
+}
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
+}
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+.hero {
+  height: 300px;
+  background-image: url(judi.png);
+  background-size: cover;
+  background-position: 0 -100px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid greenyellow;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+.content .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.footer {
+  background-color: #333;
+}
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+.gambling {
+  font-style: italic;
+}
+.kansspel {
+  font-style: italic;
+}
+.taruhan:hover {
+  color: aqua;
+}
+.gambar2 {
+  height: 300px;
+  background-image: url(gambar2.png);
+  background-size: cover;
+  background-position: 0 -100px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid greenyellow;
+}
+.ekonomi {
+  height: 400px;
+  background-image: url(ekonomi2.png);
+  background-size: cover;
+  border-top: 5px solid red;
+  border-bottom: 5px solid greenyellow;
+}
+.radarsampit:hover {
+  background-color: black;
+}
+.bloom:hover {
+  background-color: black;
+}
+span {
+  font-style: italic;
+}
+a:hover {
+  color: aqua;
+}
