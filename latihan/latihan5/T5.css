@@ -66,7 +66,7 @@ body {
 }
 .hero {
   height: 350px;
-  background-image: url(img/cake.jpg);
+  background-image: url(cake.jpg);
   background-size: cover;
   background-position: 0 -100px;
   border-top: 5px solid rgb(150, 100, 15);
@@ -162,7 +162,7 @@ img {
 }
 h3{
   text-align: center;
-  font-size: large;
+
 }
 /* overlay */
 .overlay {
