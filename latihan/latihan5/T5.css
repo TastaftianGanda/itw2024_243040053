@@ -223,7 +223,7 @@ h3{
 .prev {
   width: 57px;
   height: 93px;
-  background-image: url(img/next.png);
+  background-image: url(next.png);
   position: absolute;
   text-indent: -9999px;
   top: 40%;
@@ -231,7 +231,7 @@ h3{
   opacity: 0;
 }
 .prev {
-  background-image: url(img/prev.png);
+  background-image: url(prev.png);
   margin-left: -100px;
 }
 /* Animasi */
