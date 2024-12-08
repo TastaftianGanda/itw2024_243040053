@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Tugas7.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+            <h2 class="heading">Chaussure</h2>
+            <p class="sub-heading">Shoes</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 400k</h4>
+                <p class="item">Casual Shoes</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 230k</h4>
+                <p class="item">Standard Shoes</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Chaussure</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon">🐐</div>
+                <h3>Kulit Pilihan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime laboriosam similique sapiente voluptatum neque?</p>
+            </div>
+            <div class="service">
+                <div class="icon">👟</div>
+                <h3>Desain</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime laboriosam similique sapiente voluptatum neque?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🏃🏼‍♂</div>
+                <h3>Jangka Panjang</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime laboriosam similique sapiente voluptatum neque?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🌱</div>
+                <h3>Ramah Lingkungan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime laboriosam similique sapiente voluptatum neque?</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+
+            <h2>Gallery</h2>
+            <img src="img/gl1.jpg" alt="">
+            <img src="img/gl1.jpg" alt="">
+            <img src="img/gl1.jpg" alt="">
+            <img src="img/gl1.jpg" alt="">
+            <img src="img/gl1.jpg" alt="">
+            <img src="img/gl1.jpg" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle input");
+const nav = document.querySelector("nav ul");
+
+menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+});
+    </script>
+</body>
+</html>
